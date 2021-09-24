@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+
+.navbar{
+    background-color: #111821
+    ;
+    box-shadow: 0 10px 30px -10px #090c11;
+
+}
+
+.navbar-brand{
+    color: #fff !important;
+      padding:  0 10px;
+}
+.navbar-nav li{
+    padding:  0 10px;
+}
+.navbar-nav li a{
+    color: #fff  !important;
+    font-family: 'Montserrat', sans-serif;
+}
+#about{
+    background-color:#111821    ;
+    height: 100vh;
+    display:flex;
+
+    align-items: center;
+
+   
+}
+
+.span-animation1{
+    color: #FFF;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+  
+}
+
+.span-animation2{
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+font-weight: 600;
+    font-size: 60px;
+}
+@media (max-width: 600px) {
+    .span-animation2{
+        font-size: 30px;
+    }
+  }
+  @media (max-width: 735px) {
+    .span-animation2{
+        font-size: 28px;
+    }
+  }
+.span-3
+{   color: #fff;
+    font-size: 25px;/*30*/
+}
+.span-animation:hover{
+   
+    --animate-duration: 800ms;
+    --animate-delay: 0.9s;
+    
+}
+
+span:hover{
+    color: #08C6AB;
+}
+
+.about-paragraph{
+    color: #08C6AB;
+    text-align: justify;
+    width: auto;
+    width: 550px;
+    font-size: 18px;
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.btn{
+    width: 200px;
+    padding: 10px;
+    font-size: 15px;
+    border-color: #08C6AB;
+    color: #08C6AB;
+}
+.btn:hover{
+    background-color:#08c6a92a ;
+}
+.habilidades{
+    background-color: #111821;
+    height: auto;
+}
+.habilidades-paragraph{
+    color: #fff;
+    text-align: justify;
+}
+.imagen{
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    object-fit: contain;
+}
+.imagen:hover{
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0); 
+}
