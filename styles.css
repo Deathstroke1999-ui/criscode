@@ -98,6 +98,11 @@ span:hover{
     background-color: #111821;
     height: 100vh;
 }
+@media (max-width: 735px) {
+    .habilidades{
+  height: auto;
+    }
+  }
 .habilidades-paragraph{
     color: #fff;
     text-align: justify;
@@ -107,6 +112,12 @@ span:hover{
     filter: grayscale(1);
     object-fit: cover;
 }
+@media (max-width: 735px) {
+    .imagen{
+  
+    }
+  }
+.span-a
 .imagen:hover{
     -webkit-filter: grayscale(0);
     filter: grayscale(0); 
@@ -151,6 +162,11 @@ picture{
     height: 60vh;
     background-color:#111821;
 }
+@media (max-width: 732px) {
+    .proyectos{
+     height: auto;
+    }
+  }
 .proyectos-container{
     text-align: center;
     display: block;
@@ -181,7 +197,7 @@ object-fit: fill;
     object-fit: fill;
 }
 .contacto{
-    height: 80vh;
+    height: 50vh;
     background-color:#111821;
     display:flex;
 align-items: center;
