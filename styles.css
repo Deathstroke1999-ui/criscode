@@ -30,6 +30,12 @@
 
    
 }
+@media (max-width: 470px) {
+    #about{
+        height: 90vh;
+    }
+  }
+  
 
 .span-animation1{
     color: #FFF;
@@ -45,7 +51,7 @@
 font-weight: 600;
     font-size: 60px;
 }
-@media (max-width: 600px) {
+@media (max-width: 735) {
     .span-animation2{
         font-size: 30px;
     }
@@ -61,7 +67,7 @@ font-weight: 600;
 }
 @media (max-width: 735px) {
     .span-3{
-        font-size: 25px;
+        font-size: 20px;
     }
   }
 .span-animation:hover{
@@ -113,9 +119,9 @@ span:hover{
    */
     object-fit: cover;
 }
-@media (max-width: 735px) {
-    .imagen{
-  
+@media (max-width: 470px) {
+ .imagen{
+  margin-top: 50px;
     }
   }
 .span-a
