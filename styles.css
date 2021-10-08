@@ -94,12 +94,12 @@ span:hover{
 .btn:hover{
     background-color:#08c6a92a ;
 }
-.habilidades{
+#habilidades{
     background-color: #111821;
     height: 100vh;
 }
 @media (max-width: 735px) {
-    .habilidades{
+    #habilidades{
   height: auto;
     }
   }
@@ -108,8 +108,9 @@ span:hover{
     text-align: justify;
 }
 .imagen{
-    -webkit-filter: grayscale(1);
+  /*  -webkit-filter: grayscale(1);
     filter: grayscale(1);
+   */
     object-fit: cover;
 }
 @media (max-width: 735px) {
@@ -158,24 +159,28 @@ display: inline-block;
 picture{
     height: 500vh;
 }
-.proyectos{
-    height: 60vh;
+#proyectos{
+ 
     background-color:#111821;
+    height: 100vh;
+    display:flex;
+
+    align-items: center;
 }
 @media (max-width: 732px) {
-    .proyectos{
+    #proyectos{
      height: auto;
     }
   }
 .proyectos-container{
     text-align: center;
     display: block;
-    margin-top: 50px;
+  
 }
 .container-proyecto{
     height: auto;
     width: 100%;
-    margin-top: 100px;
+    margin-top: 50px;
 
    
 }
@@ -196,20 +201,24 @@ object-fit: fill;
     height: 300px;
     object-fit: fill;
 }
-.contacto{
+#contacto{
     height: 50vh;
     background-color:#111821;
+
     display:flex;
-align-items: center;
+
+    align-items: center;
 }
 
 .contacto-paragraph{
     text-align: justify;
     color: #08C6AB;
+    margin-top: 40px;
 }
 .centrarboton{
 
   text-align: center;
+  margin-top: 5px;
 
 
 }
