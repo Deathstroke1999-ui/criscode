@@ -65,11 +65,16 @@ html {
 
 .navbar-nav li {
     padding: 0 10px;
+
 }
+
 
 .navbar-nav li a {
     color: #fff !important;
     font-family: 'Montserrat', sans-serif;
+}
+a.nav-link{
+    font-size: 1.6rem;
 }
 
 #about {
