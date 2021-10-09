@@ -38,6 +38,7 @@ html {
 
 }
 
+
 @media (max-width: 991.98px) {
     .span-animation2 {
         font-size: 4.5rem;
@@ -97,6 +98,13 @@ overflow: hidden;
     align-items: center;
 
 
+}
+@media (max-width: 991.98px)  and (orientation: landscape) {
+    
+    #about {
+       
+height:120vh ;
+    }
 }
 @media (max-width:767.98px) {
     #about {
@@ -176,15 +184,29 @@ span:hover {
 #habilidades {
     background-color: #111821;
     height: 100vh;
+    display: flex;
+    align-items: center;
+  
    
 }
 
-@media (max-width: 768px) {
+@media (max-width: 991.98px)  and (orientation: landscape) {
+    
     #habilidades {
-        height: auto;
-        overflow: hidden;
+       
+height: 150vh;
     }
 }
+
+@media (max-width: 991.98px)  and (orientation: portrait) {
+    
+    #habilidades {
+        display: flex;
+        align-items: center;
+height: auto;
+    }
+}
+
 
 .habilidades-paragraph {
     color: #fff;
@@ -282,9 +304,13 @@ picture {
     align-items: center;
 }
 
-@media (max-width: 768px) {
+
+
+@media (max-width: 991.98px)  and (orientation: landscape) {
+    
     #proyectos {
-        height: auto;
+       
+height: 300vh;
     }
 }
 
@@ -330,12 +356,29 @@ picture {
 
     align-items: center;
 }
+@media (max-width: 991.98px)  and (orientation: landscape) {
+    
+    #contacto {
+       
+height: 120vh;
+    }
+}
+@media (max-width: 991.98px)  and (orientation: portrait) {
+    
+    #proyectos {
+        display: flex;
+
+    align-items: center;
+height:auto;
+    }
+}
 
 .contacto-paragraph {
     text-align: justify;
     color: #08C6AB;
     margin-top: 40px;
     font-size: 1.8rem;
+ 
 }
 
 .centrarboton {
