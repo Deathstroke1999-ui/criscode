@@ -14,9 +14,12 @@ html {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 60px;
+    --animate-duration: 2s;
+ 
     
 
 }
+
 
 
 
@@ -90,10 +93,15 @@ a.nav-link{
     background-color: #111821;
     height: 100vh;
     display: flex;
-
+overflow: hidden;
     align-items: center;
 
 
+}
+@media (max-width:767.98px) {
+    #about {
+        height: 110vh;
+    }
 }
 
 @media (max-width: 470px) {
@@ -107,7 +115,7 @@ a.nav-link{
     color: #FFF;
 
     font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
+    font-size: 2rem;
 
 }
 
@@ -126,7 +134,16 @@ a.nav-link{
     --animate-delay: 0.9s;
 
 }
+/*.animacion-habilidades{
+    transform: translateX(-200px);
 
+}
+@media (max-width: 470px) {
+    .animacion-habilidades {
+      
+        transform: translateX(-500px);
+    }
+}*/
 span:hover {
     color: #08C6AB;
 }
@@ -139,6 +156,7 @@ span:hover {
     font-size: 18px;
     margin-top: 20px;
     font-family: 'Open Sans', sans-serif;
+
 }
 
 .btn {
@@ -147,7 +165,7 @@ span:hover {
     font-size: 15px;
     border-color: #08C6AB;
     color: #08C6AB;
-     margin: 0px 10px;
+
     
 }
 
@@ -158,11 +176,13 @@ span:hover {
 #habilidades {
     background-color: #111821;
     height: 100vh;
+   
 }
 
 @media (max-width: 768px) {
     #habilidades {
         height: auto;
+        overflow: hidden;
     }
 }
 
@@ -170,6 +190,7 @@ span:hover {
     color: #fff;
     text-align: justify;
     font-size: 1.7rem;
+     padding: 0 10px;
     
 }
 
@@ -184,14 +205,21 @@ span:hover {
     filter: grayscale(1);
    */
     object-fit: cover;
+   /* transform: translateX(200px);*/
 }
-
 @media (max-width: 470px) {
     .imagen {
         margin-top: 50px;
+        
     }
 }
-
+/*@media (max-width: 470px) {
+    .imagen {
+        margin-top: 50px;
+        transform: translateX(50px);
+    }
+}
+*/
 .span-a .imagen:hover {
     -webkit-filter: grayscale(0);
     filter: grayscale(0);
@@ -226,7 +254,7 @@ h2 {
     gap: 0px 10px;
     padding: 0px;
     margin: 20px 0px 0px;
-    overflow: hidden;
+
     list-style: none;
 }
 
@@ -234,6 +262,11 @@ h2 {
 .svg {
     display: inline-block;
     height: 22px;
+}
+@media (max-width: 575.98px) {
+.skill-items{
+    grid-template-columns: repeat(3, minmax(100px, 200px));
+    }
 }
 
 picture {
